@@ -1,0 +1,29 @@
+/* common_general_rules */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* /common_general_rules */
+
+body {
+	background-color: #102f45;
+}
+
+#title {
+	text-align: center;
+	color: #fff;
+	margin: 1rem 0;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+}
+
+.card {
+	width: 500px;
+	height: 500px;
+	background-color: #fff;
+	margin: 0.5rem auto;
+}
