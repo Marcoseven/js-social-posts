@@ -6,6 +6,8 @@
 }
 /* /common_general_rules */
 
+
+/* .container */
 body {
 	background-color: #102f45;
 }
@@ -27,3 +29,42 @@ body {
 	background-color: #fff;
 	margin: 0.5rem auto;
 }
+
+.header {
+	display: flex;
+	flex-direction: row;
+}
+
+.header > img {
+	width: 15%;
+	border-radius: 50%;
+	margin: 1rem;
+	vertical-align: middle;
+}
+
+.text {
+	margin-top: 2rem;
+}
+
+.main > img {
+	height: 250px;
+	margin: auto;
+	width: 80%;
+	margin: 1rem 2rem;
+}
+
+.main p {
+	margin: 0 0.1rem;
+}
+
+.social {
+	display: flex;
+	margin: 0.5rem 0;
+	justify-content: space-around;
+}
+
+.social > div {
+	text-align: center;
+}
+/* /.container */
+
