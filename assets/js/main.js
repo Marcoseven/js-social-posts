@@ -1,5 +1,6 @@
 /* 
-Descrizione:
+Traccia esercizio. 
+
 Creare una pagina che elenchi una lists di post socials a partire da un array di oggetti.
 Gli attributi minimi del modello di un post: id, contenuto, immagine,
 autore (nome, avatar), numero di likes, data creazione.
@@ -47,7 +48,7 @@ const posts = [
 		date: "1 mese fa",
 	},
 ];
-// console.log(posts);
+console.log(posts);
 
 // Ciclo for nell'array di oggetti
 
@@ -57,9 +58,9 @@ function post(posts) {
 		const element = posts[index];
 		let elementPosts = `
                  <div class="card">
-					<div class="header d_flex">
+					<div class="card_header d_flex">
 						<img src="${posts[index].author[1]}" alt="" />
-						<div class="text">
+						<div class="card_text">
 							<h2>${posts[index].author[0]}</h2>
 							<h3>${posts[index].date}</h3>
 						</div>
@@ -82,4 +83,3 @@ function post(posts) {
 // 2° array di oggetti composto dagli id del 1° array
 const { id } = posts[(0, 1, 2)];
 console.log(id);
- 
